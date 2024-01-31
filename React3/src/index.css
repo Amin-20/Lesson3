@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+
+
+.centered-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+/* this is the style for the container inside the app.js */
+/* you can remove it and just use the card CSS */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Roboto", sans-serif;
+  gap: 50px;
+}
+/* ======================================================== */
+.card {
+  transform-style: preserve-3d;
+  position: relative;
+  padding: 25px;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  transition: all 0.1s ease;
+}
+.sneaaker-img {
+  width: 80%;
+  height: 80%;
+  transition: all 0.5s ease;
+}
+
+.title,
+.card p {
+  width: 100%;
+  
+}
+.sizes-box {
+  width: 100%;
+  display: flex;
+  margin-left: -40px;
+  justify-content: space-between;
+
+}
+.sizes-box li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+
+}
+
+.button-box {
+  width: 100%;
+  margin-top:20px;
+  margin-bottom: 80px;
+}
+.purchase {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 30px;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+
+}
